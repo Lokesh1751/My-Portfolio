@@ -317,3 +317,71 @@ li {
 .contactme {
   padding-top: 105px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+  .firstsection {
+    margin-left: 100px;
+  }
+  .secondsection {
+    margin-left: 150px;
+  }
+  .myprojects {
+    margin-left: 150px;
+  }
+  .ts {
+    display: flex;
+    justify-content: center;
+  }
+  input {
+    width: 400px;
+  }
+  textarea {
+    width: 400px;
+  }
+  .containe {
+    margin-left: 150px;
+  }
+  main hr {
+    width: 100vw;
+  }
+  .socialmedia .ts {
+    margin-left: 150px;
+  }
+  .contactme .ts {
+    margin-left: 150px;
+  }
+  .myprojects,
+  .firstsection,
+  .secondsection,
+  .myskills,
+  .contactme {
+    padding-top: 20px;
+  }
+  .leftsection {
+    font-size: 2rem;
+    margin-right: 100px;
+  }
+  .rightsection img {
+    width: 240px;
+    margin: 10px 0;
+    height: 500px;
+    margin-right: 40px;
+  }
+  .btn {
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 80px;
+  }
+  .icont {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+  }
+}
