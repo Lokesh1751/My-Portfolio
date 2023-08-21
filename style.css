@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@400;500;600&display=swap");
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+/* 6 6 43 */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(66, 4, 124);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+.left {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-right: 500px;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 3rem;
+  margin: 70px 0;
+  font-weight: bolder;
+}
+.rightsection img {
+  width: 100%;
+  margin: 10px 0;
+  height: 500px;
+}
+.purple {
+  color: blueviolet;
+}
+.right ul a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.right ul a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+#element {
+  color: blueviolet;
+}
+.ts {
+  display: flex;
+  justify-content: center;
+}
+main hr {
+  border: 0px;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.text-gray {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+.first img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.first {
+  /* border: 1px solid white; */
+  margin: 50px;
+  padding: 10px;
+  border-radius: 30%;
+  cursor: pointer;
+  box-shadow: 1px 1px 20px whitesmoke;
+  transition: 0.6s ease-in-out;
+  width: fit-content;
+  height: fit-content;
+}
+.first:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 3px;
+}
+li {
+  list-style: none;
+}
+.myskills {
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.myskills li {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background-color: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover {
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25),
+    0px 10px 10px rgba(0, 0, 0, 0.24);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgba(252, 103, 103, 1) 100%
+  );
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 70%;
+  animation: css 3s;
+}
+.js {
+  width: 70%;
+  animation: js 3s;
+}
+.react {
+  width: 60%;
+  animation: react 3s;
+}
+.cpp {
+  width: 70%;
+  animation: cpp 3s;
+}
+.java {
+  width: 75%;
+  animation: java 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes cpp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.incont {
+  margin: 15px;
+}
+
+.incont img {
+  width: 500px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px whitesmoke;
+  transition: 0.6s ease-in-out;
+}
+.incont h3 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.incont img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 3px;
+}
+.incont h5 {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+.btn {
+  border-radius: 20px;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 0, 33);
+  border: 1px solid white;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+.btn:hover {
+  color: blueviolet;
+  background-color: white;
+}
+.f input {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 40);
+  color: white;
+}
+.f textarea {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 40);
+  color: white;
+}
+.f button {
+  cursor: pointer;
+  margin: 30px;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(0, 0, 40);
+  color: white;
+  background-color: rgb(66, 4, 124);
+  transition: 0.5s ease-in-out;
+}
+.f button:hover {
+  background-color: rgb(83, 0, 160);
+}
+.containe {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  padding: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  color: white;
+}
+.icon:hover {
+  color: rgb(95, 8, 176);
+}
+.myprojects,
+.firstsection,
+.secondsection,
+.myskills,
+.contactme {
+  padding-top: 105px;
+}
