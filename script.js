@@ -6,6 +6,10 @@ const icon2 = document.getElementById("ic2");
 const icon3 = document.getElementById("ic3");
 const txt = document.getElementById("mysk");
 const tt = document.getElementById("h");
+
+const prog = document.getElementById("progbar");
+const list = prog.querySelectorAll("li h3");
+
 btn.addEventListener("click", () => {
   drk = !drk;
 
@@ -20,6 +24,9 @@ btn.addEventListener("click", () => {
     btn.style.backgroundColor = "rgb(0, 0, 33)";
     txt.style.color = "black";
     tt.style.color = "white";
+    list.forEach(h3 => {
+        h3.style.color = 'black';
+    });
   } else {
     document.body.style.backgroundColor = "rgb(0, 0, 33)";
     document.body.style.color = "white";
@@ -31,5 +38,8 @@ btn.addEventListener("click", () => {
     btn.style.backgroundColor = "white";
     txt.style.color = "white";
     tt.style.color = "white";
+    list.forEach(h3 => {
+        h3.style.color = 'white';
+    });
   }
 });
